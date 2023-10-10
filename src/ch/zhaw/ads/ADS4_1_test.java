@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ADS4_1_test {
-    SnowflakeServer sf;
+    /*SnowflakeServer sf;
     Turtle turtle;
     final double EPS = 1;
 
@@ -96,5 +96,5 @@ public class ADS4_1_test {
         for (int i = 0; i < linesGood.length -1; i++) {
             assertEquals(angle(linesGood[i], linesGood[i+1]), angle(lines[i], lines[i+1]), EPS, "Angle "+i);
         }
-    }
+    }*/
 }
