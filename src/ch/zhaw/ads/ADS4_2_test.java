@@ -1,5 +1,6 @@
 package ch.zhaw.ads;
 
+import ch.zhaw.ads.solutions.HilbertServer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 
@@ -8,7 +9,7 @@ import java.util.StringTokenizer;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ADS4_2_test {
-    /*HilbertServer hlb;
+    HilbertServer hlb;
     Turtle turtle;
     final double EPS = 1E-1;
 
@@ -95,5 +96,5 @@ public class ADS4_2_test {
         for (int i = 0; i < linesGood.length -1; i++) {
             assertEquals(angle(linesGood[i], linesGood[i+1]), angle(lines[i], lines[i+1]), EPS, "Angle "+i);
         }
-    }*/
+    }
 }
